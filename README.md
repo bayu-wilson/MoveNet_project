@@ -14,7 +14,7 @@ Potential Complications include:
 - a dancer with long hair
 - various preps before the turn
 - hair covering face
-- Face going down/up
+- Face going down or up
 
 Plan: 
 1) Use MoveNet to extract body features. Test it with different rotation angles. 

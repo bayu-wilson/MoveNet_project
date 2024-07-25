@@ -1,5 +1,20 @@
+# Dance Spin Tracker using MoveNet
+The objective of this computer vision project is to track the number of times a single dancer spins/turns in each direction (over right of left shoulder).
+
+https://github.com/user-attachments/assets/632d67cb-97af-4353-b4c3-b216fd6bfead
+
+
+
+
 ### Motivation
 The objective of this computer vision project is to track the number of times a single dancer spins/turns in each direction (over right of left shoulder). This project could be expanded on and applied to live fitness and movement applications. For example, a professional dancer may want to keep track of movements like spinning to quantify their training routine. This can help to ensure a dancer sufficiently practices to improve but does not over-train, risking injury. Tracking number of spins in both directions is important as well because it can help prevent muscular imbalances developed during biased training. It can also monitor creativity biases during improvised dancing or performances (i.e. a choreographer spinning in one direction significantly more than the other). Lastly, it could be used in an ethnomusicological context. On page 55, [table 1.1](https://drive.google.com/file/d/13SPHCf94HYKWoEIaKNVrBEtmyad39JaZ/view?usp=drive_link) in the book "Spinning Mambo into Salsa" by Juliet McMains, one of the major aesthetic differences between Palladium-Era Mambo of the 1950's and the Modern New York-Style Salsa/Mambo today is the number of spins/turns done by the dancers. Palladium-Era dancers typically would do few simple turns and idiosyncratic solo moves while modern dancers today incorporate multiple, complex turns. Computer vision is a tool worth considering in the context of quantitative dance ethnography.
+
+<p align="center">
+    <img src="Palladium_vs_NYstyle.png" alt="Description" width="400"/>
+</p>
+<p align="center">Table 1.1 from the book "Spinning Mambo into Salsa" by Juliet McMains.</p>
+
+
 
 
 ### Methodology and Tools

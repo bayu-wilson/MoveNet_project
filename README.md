@@ -1,9 +1,7 @@
 # Dance Spin Tracker using MoveNet
 The objective of this computer vision project is to track the number of times a single dancer spins/turns in each direction (over right of left shoulder).
 
-https://github.com/user-attachments/assets/632d67cb-97af-4353-b4c3-b216fd6bfead
-
-
+![SpinVideoDemo_overlay](https://github.com/user-attachments/assets/abf6ab7f-36fb-4276-9bc4-ecff8aa32c8b)
 
 
 ### Motivation
@@ -13,8 +11,6 @@ The objective of this computer vision project is to track the number of times a 
     <img src="Palladium_vs_NYstyle.png" alt="Description" width="400"/>
 </p>
 <p align="center">Table 1.1 from the book "Spinning Mambo into Salsa" by Juliet McMains.</p>
-
-
 
 
 ### Methodology and Tools
@@ -40,6 +36,10 @@ In order to quantify a turn, I first define 4 orientations: facing front, right,
 
 I classify orientation simply using only 3 keypoints: the left shoulder, the right shoulder, and the nose. If nose is further to the left, then the person is left facing and vice versa to the right. And then the shoulder orientation can be easily used to define forward vs backward facing.
 
+<p align="center">
+    <img src="calibration.png" alt="Description" width="1000"/>
+</p>
+<p align="center">Testing the pose orientation classification method I made with using my get_orientation function. </p>
 
 
 ```
